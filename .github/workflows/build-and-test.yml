@@ -1,17 +1,14 @@
 name: .NET Core
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
     branches:
       - master
-    
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build and run unit tests
+    name: Build and run unit tests on PR
     steps:
     - uses: actions/checkout@722adc63f1aa60a57ec37892e133b1d319cae598 # 2.0.0
     - name: Setup .NET Core

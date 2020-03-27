@@ -32,3 +32,4 @@ jobs:
         --aws-access-key-id $AWS_ACCESS_KEY_ID
         --aws-secret-key $AWS_SECRET_KEY
         --region $AWS_REGION
+        --function-publish true

@@ -1,4 +1,4 @@
-name: .NET Core
+name: Build and Run Unit Tests on PR
 
 on:
   pull_request:

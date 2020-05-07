@@ -168,7 +168,7 @@ converted to uppercase, along with other diagnostic and billing information.
 
 # Deploying from Github Actions
 
-For an efficient CI/DI pipeline, we want to do the following:
+For an efficient CI/CD pipeline, we want to do the following:
 
  * Build and run unit tests on every pull request
  * Deploy the Lambda function to AWS on a merged pull request

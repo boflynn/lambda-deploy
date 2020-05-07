@@ -265,7 +265,7 @@ This is very similar to the build and test action, with a few additional steps:
 
  * **Install dotnet lambda tool** - installs the same `dotnet lambda` tool we used in our
    testing earlier
- * **Publish with dotnet lambda** - publishs the Lambda to AWS, using the same tooling we
+ * **Publish with dotnet lambda** - publishes the Lambda to AWS, using the same tooling we
    used earlier
 
 The main difference between our local deployment and this one is the use of Github Secrets
